@@ -1,0 +1,33 @@
+b{
+    font-weight: bold ;
+}
+body{
+    font-family: 'Abhaya Libre', serif;
+    color:#FFD089 ;
+    height: 2000px;
+    font-family: 'Playfair Display', serif;
+}
+header{
+    height: 100vh;
+}
+.gap1{
+    gap: 1rem;
+}
+.gap2{
+    gap: 2rem;
+}
+
+.container{
+    display: flex;
+}
+.container__column{
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    display: flex;
+}

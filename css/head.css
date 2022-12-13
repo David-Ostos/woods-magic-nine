@@ -1,0 +1,69 @@
+.head__contacto{
+    display: flex;
+    justify-content: end;
+    padding: 1rem 10rem;
+}
+.head__contacto__list{
+    border: 1px solid black;
+    padding: 0.4rem 1rem;
+}
+.head__contacto__list a{
+    color: white;
+    font-family: initial;
+}
+.table__contactame_L{
+    border-radius: 10px 0 0 10px;
+    border-right: 0;
+}
+.table__contactame_R{
+    border-radius: 0 10px 10px 0;
+    background: #464646;
+}
+.fondo{
+    background: #46464650;
+    height: 100vh;
+}
+.head__table {
+    margin: 2rem;
+}
+.head__nav__list{
+    padding: 0 5rem;
+}
+.head__nav__table {
+    display: flex;
+    justify-content: center;
+}
+.head__nav__list {
+    padding: .5rem 4rem;
+    border: 1px ;
+    border-top: 0.5px solid #464646 ;
+    border-bottom: 0.5px solid #464646 ;
+    border-left: 0.5px solid #464646 ;
+    border-right: 1px solid #464646 ;
+    text-transform: uppercase
+    
+}
+.table__frist{
+    border-radius: 14px 0 0px 14px;
+}
+.table__end{
+    border-right: .5px solid #464646;
+    border-radius: 0 14px 14px 0;
+}
+.head__nav__list a{
+    color: #161616
+}
+.head__contenido.container__column {
+    align-items: center;
+    gap: 1rem;
+    padding: 14rem 0;
+}
+.head__tittle {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.head__parrafo {
+    font-size: 2rem;
+    color: #24242480;
+    -webkit-text-stroke: 0.4px black;
+}
