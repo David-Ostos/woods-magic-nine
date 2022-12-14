@@ -1,0 +1,28 @@
+.sobre-mi {
+    align-items: center;
+    color: #464646;
+    /* width: 49%; */
+    padding: 10rem 5rem;
+    line-height: 2;
+    text-align: justify;
+    justify-content: space-between;
+}
+.img__sobre-mi{
+    border-radius: 20px;
+    box-shadow: 10px 10px 18px 1px rgb(0 0 0 / 75%);
+}
+.sobre-mi__contenido {
+    width: 46%;
+}
+.sobre-mi__tittle {
+    font-size: 2rem;
+    color: #242424;
+}
+.sobre-mi__tittle b{
+    color: #FFD089;
+
+}
+.sobre-mi__parrafo {
+    font-size: 1rem;
+    color: #242424;
+}
