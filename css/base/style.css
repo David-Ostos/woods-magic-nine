@@ -7,6 +7,30 @@ body{
     height: 2000px;
     font-family: 'Playfair Display', serif;
 }
+h1{
+    font-size: 2rem;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #221a23 #464646;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #464646;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #221a23;
+    border-radius: 11px;
+    border: 1px solid #000;
+  }
 header{
     height: 100vh;
 }
@@ -30,4 +54,10 @@ header{
 }
 .row{
     display: flex;
+}
+.btn{
+    padding: 1rem 2rem;
+    border: none;
+    background: transparent;
+
 }

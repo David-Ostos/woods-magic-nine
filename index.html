@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/base/reset.css">
     <link rel="stylesheet" href="css/base/style.css">
     <link rel="stylesheet" href="css/head.css">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/sobre-mi.css">
+    <link rel="stylesheet" href="css/galeria.css">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
 
@@ -55,7 +55,68 @@
         </div>
     </header>
     
-    <!--banner-->
+    <!--sobre mi-->
+    <section>
+        <div class="sobre-mi container">
+            <div class="sobre-mi__contenido">
+                <h1 class="sobre-mi__tittle">
+                    Bienvenido mi nombre es <b>Yarline Montilla</b>
+                </h1>
+                <p class="sobre-mi__parrafo">
+                    Fotógrafa profesional, apasionada en el arte natural, captar la naturalidad del momento y de un ángulo completo, es lo que define un buen recuerdo.
+                </p>
+                <p class="sobre-mi__parrafo">
+                    Y hoy de nuevo en mi ciudad Valencia me recuerdo que si me quedo en el camino seguro no crezco. Que necesito salir, ver, conocer, no saber, aprender, que la incertidumbre es mi aliada para seguir buscando y para seguir encontrando, para seguir creciendo. Estoy en una búsqueda.
+                </p>
+            </div>
+            <div class="sobre-mi__imagen">
+                <img src="img/69402036_131836964770204_7324217035625687690_n.jpg" width="500px" alt="foto" class="img__sobre-mi">
+            </div>
+        </div>
+    </section>
 
+    <!--galeria-->
+    <section>
+        <div class="galeria">
+            <div class="galeria__container container__column">
+                <h1 class="galeria__tittle">Galeria</h1>
+                <div class="galeria__filtro__container wrap">
+                        <button data-filter="*" class="btn galeria__filtro__list filtro">Todos</button>
+                        <button data-filter=".eventos" class="btn galeria__filtro__list filtro">Eventos</button> 
+                        <button data-filter=".turismo" class="btn galeria__filtro__list filtro">Turismo</button>
+                        <button data-filter=".surfing" class="btn galeria__filtro__list filtro">Surfing</button>
+                        <button data-filter=".gastronomia" class="btn galeria__filtro__list filtro">Gastronomia</button>
+                        <button data-filter=".personas" class="btn galeria__filtro__list filtro">Personas</button>
+                        <button data-filter=".naturaleza" class="btn galeria__filtro__list filtro">Naturaleza</button>
+                </div>
+                <div class="galeria__media wrap">
+                    <div class="galeria__img eventos">
+                        <img class="img__galeria" src="https://i.imgur.com/6PXFe8Q.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img turismo">
+                        <img class="img__galeria" src="https://i.imgur.com/WRAlBMf.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img surfing">
+                        <img class="img__galeria" src="https://i.imgur.com/AcHyXCV.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img gastronomia">
+                        <img class="img__galeria" src="https://i.imgur.com/WeNXaTh.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img personas">
+                        <img class="img__galeria" src="https://i.imgur.com/4GPqCSt.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img naturaleza">
+                        <img class="img__galeria" src="https://i.imgur.com/71ckXXv.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
