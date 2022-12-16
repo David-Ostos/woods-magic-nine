@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/base/style.css">
     <link rel="stylesheet" href="css/head.css">
     <link rel="stylesheet" href="css/sobre-mi.css">
-    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/galeria/galeria.css">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
 
@@ -20,7 +20,7 @@
 </head>
 <body>
     <!--head-->
-    <header style="background: url(https://i.imgur.com/cDuXHiG.jpg) center / cover;">
+    <header style="background: url(https://i.imgur.com/tIEurs7.jpg) center / cover;">
        <div class="fondo">
             <div class="head__container__logo" style="display:none">
                 <img src="" alt="logo head" class="logo__head">
@@ -38,7 +38,7 @@
                     <tr class="head__nav__table__grupo">                    
                         <td class="head__nav__list table__frist"><a href="">home</a></td>  
                         <td class="head__nav__list"><a href="">sobre mi</a></td>  
-                        <td class="head__nav__list"><a href="">galeria</a></td>  
+                        <td class="head__nav__list"><a href="">Galería</a></td>  
                         <td class="head__nav__list"><a href="">servicios</a></td>  
                         <td class="head__nav__list"><a href="">precio</a></td>  
                         <td class="head__nav__list table__end"><a href="">contactame</a></td>
@@ -76,22 +76,22 @@
     </section>
 
     <!--galeria-->
-    <section>
+    <section id="galeria">
         <div class="galeria">
             <div class="galeria__container container__column">
-                <h1 class="galeria__tittle">Galeria</h1>
+                <h1 class="galeria__tittle">Galería</h1>
                 <div class="galeria__filtro__container wrap">
-                        <button data-filter="*" class="btn galeria__filtro__list filtro">Todos</button>
-                        <button data-filter=".eventos" class="btn galeria__filtro__list filtro">Eventos</button> 
-                        <button data-filter=".turismo" class="btn galeria__filtro__list filtro">Turismo</button>
-                        <button data-filter=".surfing" class="btn galeria__filtro__list filtro">Surfing</button>
-                        <button data-filter=".gastronomia" class="btn galeria__filtro__list filtro">Gastronomia</button>
-                        <button data-filter=".personas" class="btn galeria__filtro__list filtro">Personas</button>
-                        <button data-filter=".naturaleza" class="btn galeria__filtro__list filtro">Naturaleza</button>
+                        <button data-filter="todos" class="btn galeria__filtro__list todos" id="filtro">Todos</button>
+                        <button data-filter="eventos" class="btn galeria__filtro__list eventos" id="filtro">Eventos</button> 
+                        <button data-filter="turismo" class="btn galeria__filtro__list turismo" id="filtro">Turismo</button>
+                        <button data-filter="surfing" class="btn galeria__filtro__list surfing" id="filtro">Surfing</button>
+                        <button data-filter="gastronomia" class="btn galeria__filtro__list gastronomia" id="filtro">Gastronomía</button>
+                        <button data-filter="personas" class="btn galeria__filtro__list personas" id="filtro">Personas</button>
+                        <button data-filter="naturaleza" class="btn galeria__filtro__list naturaleza" id="filtro">Naturaleza</button>
                 </div>
                 <div class="galeria__media wrap">
                     <div class="galeria__img eventos">
-                        <img class="img__galeria" src="https://i.imgur.com/6PXFe8Q.jpg" alt="">
+                        <img class="img__galeria" src="https://i.imgur.com/E4cAwKk.jpg" alt="">
                     </div>
                     
                     <div class="galeria__img turismo">
@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="galeria__img surfing">
-                        <img class="img__galeria" src="https://i.imgur.com/AcHyXCV.jpg" alt="">
+                        <img class="img__galeria" src="https://i.imgur.com/Yx5JBFO.jpg" alt="">
                     </div>
                     
                     <div class="galeria__img gastronomia">
@@ -111,12 +111,172 @@
                     </div>
                     
                     <div class="galeria__img naturaleza">
-                        <img class="img__galeria" src="https://i.imgur.com/71ckXXv.png" alt="">
+                        <img class="img__galeria" src="https://i.imgur.com/XpulY44.jpg" alt="">
                     </div>
 
+                    <div class="galeria__img eventos">
+                        <img class="img__galeria" src="https://i.imgur.com/PEJKT9Z.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img turismo">
+                        <img class="img__galeria" src="https://i.imgur.com/r8A7VBo.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img surfing">
+                        <img class="img__galeria" src="https://i.imgur.com/m8fVBKc.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img gastronomia">
+                        <img class="img__galeria" src="https://i.imgur.com/3cf06F5.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img personas">
+                        <img class="img__galeria" src="https://i.imgur.com/gXoxOW7.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img naturaleza">
+                        <img class="img__galeria" src="https://i.imgur.com/4fW9hZj.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img eventos">
+                        <img class="img__galeria" src="https://i.imgur.com/7xXaS3C.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img turismo">
+                        <img class="img__galeria" src="https://i.imgur.com/ZmcKVO0.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img surfing">
+                        <img class="img__galeria" src="https://i.imgur.com/C5giAXI.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img gastronomia">
+                        <img class="img__galeria" src="https://i.imgur.com/7xKhWNG.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img personas">
+                        <img class="img__galeria" src="https://i.imgur.com/dN5EZSF.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img naturaleza">
+                        <img class="img__galeria" src="https://i.imgur.com/L9y4LC0.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img eventos">
+                        <img class="img__galeria" src="https://i.imgur.com/IWd1m8s.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img turismo">
+                        <img class="img__galeria" src="https://i.imgur.com/mwwzbYp.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img surfing">
+                        <img class="img__galeria" src="https://i.imgur.com/Yx5JBFO.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img gastronomia">
+                        <img class="img__galeria" src="https://i.imgur.com/p6UxLvd.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img personas">
+                        <img class="img__galeria" src="https://i.imgur.com/V21iVIC.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img naturaleza">
+                        <img class="img__galeria" src="https://i.imgur.com/WqrKZvQ.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img eventos">
+                        <img class="img__galeria" src="https://i.imgur.com/7XR9wiy.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img turismo">
+                        <img class="img__galeria" src="https://i.imgur.com/QFe67Gx.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img surfing">
+                        <img class="img__galeria" src="https://i.imgur.com/p6Dko0M.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img gastronomia">
+                        <img class="img__galeria" src="https://i.imgur.com/YP0bYsx.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img personas">
+                        <img class="img__galeria" src="https://i.imgur.com/gDtaQE5.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img naturaleza">
+                        <img class="img__galeria" src="https://i.imgur.com/B2fcKcL.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img eventos">
+                        <img class="img__galeria" src="https://i.imgur.com/6PXFe8Q.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img turismo">
+                        <img class="img__galeria" src="https://i.imgur.com/nGsfaxp.jpg" alt="">
+                    </div>
+
+                    <div class="galeria__img surfing">
+                        <img class="img__galeria" src="https://i.imgur.com/ofpt3UH.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img gastronomia">
+                        <img class="img__galeria" src="https://i.imgur.com/7WgwSx5.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img personas">
+                        <img class="img__galeria" src="https://i.imgur.com/FkjUPGp.jpg" alt="">
+                    </div>
+                    
+                    <div class="galeria__img naturaleza">
+                        <img class="img__galeria" src="https://i.imgur.com/XpulY44.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--servicio-->
+    <section>
+        <div class="servicio">
+            <div class="servicio__container container">
+                <div class="servicio__img" style="object-position: 50% 18%">
+                    <img src="https://i.imgur.com/4iJWj54.jpg" alt="" class="__servicio" s>
+                </div>
+                <div class="servicio__contenido">
+                    <h1 class="servicio__titulo">Fotografia para tus presentaciones</h1>
+                    <p class="servicio__parrafo">Es un servicio especializado para eventos, conferencias, stand up y talleres, lleva tus presentaciones a un nivel profecional, con un material de calidad que te facilita tu marketing al momento de capturar lo que quieres transmitir para que tu publico organico, te encuentre y le generes mas confianza con material profecional</p>
+                    <p class="servicio__parrafo">El contenido de calidad de tu servicio, merece la misma profecionalidad y calidad, en sus producto visuales, tu imagen hay que tratarla como es debido mostrar tus mejores angulos, y trabajarlos como es debido</p>
+                </div>
+            </div>
+
+            <div class="servicio__container container__invertido">
+                <figure class="servicio__img">
+                    <img src="https://i.imgur.com/p6Dko0M.jpg" alt="" class="__servicio">
+                </figure>
+                <div class="servicio__contenido">
+                    <h1 class="servicio__titulo">Fotografia Deportes</h1>
+                    <p class="servicio__parrafo">Es un servicio especializado para eventos, conferencias, stand up y talleres, lleva tus presentaciones a un nivel profecional, con un material de calidad que te facilita tu marketing al momento de capturar lo que quieres transmitir para que tu publico organico, te encuentre y le generes mas confianza con material profecional</p>
+                    <p class="servicio__parrafo">El contenido de calidad de tu servicio, merece la misma profecionalidad y calidad, en sus producto visuales, tu imagen hay que tratarla como es debido mostrar tus mejores angulos, y trabajarlos como es debido</p>
+                </div>
+            </div>
+
+            <div class="servicio__container container">
+                <figure class="servicio__img">
+                    <img src="https://i.imgur.com/WeNXaTh.jpg" alt="" class="__servicio">
+                </figure>
+                <div class="servicio__contenido">
+                    <h1 class="servicio__titulo">Fotografia de producto</h1>
+                    <p class="servicio__parrafo">Es un servicio especializado para eventos, conferencias, stand up y talleres, lleva tus presentaciones a un nivel profecional, con un material de calidad que te facilita tu marketing al momento de capturar lo que quieres transmitir para que tu publico organico, te encuentre y le generes mas confianza con material profecional</p>
+                    <p class="servicio__parrafo">El contenido de calidad de tu servicio, merece la misma profecionalidad y calidad, en sus producto visuales, tu imagen hay que tratarla como es debido mostrar tus mejores angulos, y trabajarlos como es debido</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -44,6 +44,10 @@ header{
 .container{
     display: flex;
 }
+.container__invertido{
+    display:flex ;
+    flex-direction: row-reverse;
+}
 .container__column{
     display: flex;
     flex-direction: column;

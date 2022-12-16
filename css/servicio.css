@@ -1,0 +1,12 @@
+.servicio__container {
+    gap: 3rem;
+}
+.servicio__img {
+    width: 50%;
+}
+
+.img.__servicio {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
