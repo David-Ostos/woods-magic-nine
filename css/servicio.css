@@ -1,6 +1,13 @@
 .servicio{
     padding: 4rem 0;
 }
+.servicio__titulo__principal {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #242424;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 .servicio__container__contenido {
     width: 50vw;
     color: #242424;
