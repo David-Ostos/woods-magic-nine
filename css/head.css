@@ -1,3 +1,6 @@
+.head{
+    font-family: 'Playfair Display', serif;
+}
 .head__contacto{
     display: flex;
     justify-content: end;

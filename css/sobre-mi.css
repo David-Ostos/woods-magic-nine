@@ -15,8 +15,10 @@
     width: 46%;
 }
 .sobre-mi__tittle {
-    font-size: 2rem;
+    font-size: 1.9rem;
     color: #242424;
+    padding: 0 0 1rem;
+    text-align: initial;
 }
 .sobre-mi__tittle b{
     color: #FFD089;

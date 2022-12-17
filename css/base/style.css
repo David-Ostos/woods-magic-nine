@@ -5,10 +5,10 @@ body{
     font-family: 'Abhaya Libre', serif;
     color:#FFD089 ;
     height: 2000px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 h1{
-    font-size: 2rem;
+    font-size: 32px;
 }
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
